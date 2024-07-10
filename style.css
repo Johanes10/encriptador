@@ -44,7 +44,8 @@ textarea{
     align-items: center;
     box-sizing: content-box;
     width: 30%;
-    overflow-y: auto;
+    overflow: hidden;
+
 }
 
 h1{
@@ -90,6 +91,7 @@ p{
     width: 20.5em;
     height: 4.2em;
     border:2px solid #0A3871;
+    
 }
 .button__copiar{
     background-color:white;
@@ -99,7 +101,8 @@ p{
     height: 4.2em;
     border:2px solid #0A3871;
     display: none;
-    margin-top: 1em;
+    position:absolute;
+    position:15px ;
 }
 
 button:hover{
@@ -108,5 +111,5 @@ button:hover{
 
 #parrafo{
     box-sizing: content-box;
-    height: 80%;
+    margin-bottom: 5em;
 }
